@@ -17,6 +17,7 @@ namespace Estacionamiento1
 
             informacionDeAuto = (string)auto1;
 
+            Estacionamiento estacion3 = 10;
 
             //Console.WriteLine(auto1.GetInformacion());
             //Console.ReadKey();

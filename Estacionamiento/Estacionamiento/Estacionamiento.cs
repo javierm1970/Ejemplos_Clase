@@ -68,7 +68,7 @@ namespace Estacionamiento1
         public static bool operator + (Estacionamiento estacionamiento, Auto auto)
         {
             bool agrego = false;
-            for (int i = 0; i < length; i++)
+            for (int i = 0; i < estacionamiento.arrayDeAutos.Length; i++)
             {
                 if (estacionamiento.arrayDeAutos[i] is null)
                 {
@@ -80,9 +80,9 @@ namespace Estacionamiento1
             return agrego;
         }
 
-        public static implicit operator string(int capacidad)
+        public static implicit operator Estacionamiento (int capacidad)
         {
-
+            return new Estacionamiento(capacidad);
         }
 
 
