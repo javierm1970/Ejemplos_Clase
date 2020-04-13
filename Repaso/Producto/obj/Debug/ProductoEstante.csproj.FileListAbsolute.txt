@@ -1,0 +1,6 @@
+D:\UTN\Practicas Visual Studio C#\Ejemplos_Clase\Repaso\Producto\obj\Debug\ProductoEstante.csprojAssemblyReference.cache
+D:\UTN\Practicas Visual Studio C#\Ejemplos_Clase\Repaso\Producto\obj\Debug\ProductoEstante.csproj.CoreCompileInputs.cache
+D:\UTN\Practicas Visual Studio C#\Ejemplos_Clase\Repaso\Producto\obj\Debug\Producto.dll
+D:\UTN\Practicas Visual Studio C#\Ejemplos_Clase\Repaso\Producto\obj\Debug\Producto.pdb
+D:\UTN\Practicas Visual Studio C#\Ejemplos_Clase\Repaso\Producto\bin\Debug\Producto.dll
+D:\UTN\Practicas Visual Studio C#\Ejemplos_Clase\Repaso\Producto\bin\Debug\Producto.pdb

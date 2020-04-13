@@ -1,0 +1,7 @@
+D:\UTN\Practicas Visual Studio C#\Ejemplos_Clase\Ejemplo_Clase_02\Ejemplo_Clase_02\bin\Debug\Ejemplo_Clase_02.exe.config
+D:\UTN\Practicas Visual Studio C#\Ejemplos_Clase\Ejemplo_Clase_02\Ejemplo_Clase_02\bin\Debug\Ejemplo_Clase_02.exe
+D:\UTN\Practicas Visual Studio C#\Ejemplos_Clase\Ejemplo_Clase_02\Ejemplo_Clase_02\bin\Debug\Ejemplo_Clase_02.pdb
+D:\UTN\Practicas Visual Studio C#\Ejemplos_Clase\Ejemplo_Clase_02\Ejemplo_Clase_02\obj\Debug\Ejemplo_Clase_02.csprojAssemblyReference.cache
+D:\UTN\Practicas Visual Studio C#\Ejemplos_Clase\Ejemplo_Clase_02\Ejemplo_Clase_02\obj\Debug\Ejemplo_Clase_02.csproj.CoreCompileInputs.cache
+D:\UTN\Practicas Visual Studio C#\Ejemplos_Clase\Ejemplo_Clase_02\Ejemplo_Clase_02\obj\Debug\Ejemplo_Clase_02.exe
+D:\UTN\Practicas Visual Studio C#\Ejemplos_Clase\Ejemplo_Clase_02\Ejemplo_Clase_02\obj\Debug\Ejemplo_Clase_02.pdb
