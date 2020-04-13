@@ -35,7 +35,7 @@ namespace Estacionamiento1
             sb.AppendLine($"Patente: {this.patente}");
             sb.AppendFormat("Marca: {0} \n", this.marca);
             if (this.cantidadPuerta == -1)
-                sb.AppendLine("Cantidad Puertas: "+ "datos ingresados");
+                sb.AppendLine("Cantidad Puertas: "+ "datos no ingresados");
             else
                 sb.AppendLine("Cantidad Puertas: " + this.cantidadPuerta);
 

@@ -32,6 +32,23 @@ namespace Estacionamiento1
         {
             return numeroAleatorio.Next(100, 300);
         }
+
+        public string GetInformacion()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine($"Nombre Estacionamiento: {this.nombreEstacionamiento}");
+            sb.AppendFormat("Precio Estacionamiento: {0} \n", this.precioPorAuto);
+
+            for (int i = 0; i < this.arrayDeAutos.Length; i++)
+            {
+                if (!(this.arrayDeAutos[i] is null))
+                {
+                    sb.Append("----------------------------------\n");
+                    sb.Append(this.arrayDeAutos[i].GetInformacion());
+                }
+            }
+            return sb.ToString();
+        }
         public static bool operator ==(Estacionamiento estacionamiento, Auto auto)
         {
             return estacionamiento.arrayDeAutos.Contains(auto);
@@ -82,7 +99,7 @@ namespace Estacionamiento1
 
         public static implicit operator Estacionamiento (int capacidad)
         {
-            return new Estacionamiento(capacidad);
+            return new Estacionamiento("Sin Identificar",capacidad);
         }
 
 

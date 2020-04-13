@@ -11,13 +11,23 @@ namespace Estacionamiento1
     {
         static void Main(string[] args)
         {
-            Auto auto1 = new Auto("abc123", 11222333);
+            Auto auto1 = new Auto("abc123","Audi",3, 11222333);
+            Auto auto2 = new Auto("abc124","Toyota",4, 11222444);
+            Auto auto3 = new Auto("abc125","Mazda",4, 11222555);
 
             string informacionDeAuto;
 
             informacionDeAuto = (string)auto1;
 
             Estacionamiento estacion3 = 10;
+
+            Console.WriteLine((estacion3 + auto1));
+            Console.WriteLine((estacion3 + auto2));
+            Console.WriteLine((estacion3 + auto3));
+            Console.WriteLine(estacion3.GetInformacion());
+
+            Console.ReadKey();
+
 
             //Console.WriteLine(auto1.GetInformacion());
             //Console.ReadKey();
