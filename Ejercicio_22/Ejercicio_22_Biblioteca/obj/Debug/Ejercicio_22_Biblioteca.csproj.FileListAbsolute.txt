@@ -1,0 +1,6 @@
+D:\UTN\Practicas Visual Studio C#\Ejemplos_Clase\Ejercicio_22\Ejercicio_22_Biblioteca\bin\Debug\Ejercicio_22_Biblioteca.dll
+D:\UTN\Practicas Visual Studio C#\Ejemplos_Clase\Ejercicio_22\Ejercicio_22_Biblioteca\bin\Debug\Ejercicio_22_Biblioteca.pdb
+D:\UTN\Practicas Visual Studio C#\Ejemplos_Clase\Ejercicio_22\Ejercicio_22_Biblioteca\obj\Debug\Ejercicio_22_Biblioteca.csprojAssemblyReference.cache
+D:\UTN\Practicas Visual Studio C#\Ejemplos_Clase\Ejercicio_22\Ejercicio_22_Biblioteca\obj\Debug\Ejercicio_22_Biblioteca.csproj.CoreCompileInputs.cache
+D:\UTN\Practicas Visual Studio C#\Ejemplos_Clase\Ejercicio_22\Ejercicio_22_Biblioteca\obj\Debug\Ejercicio_22_Biblioteca.dll
+D:\UTN\Practicas Visual Studio C#\Ejemplos_Clase\Ejercicio_22\Ejercicio_22_Biblioteca\obj\Debug\Ejercicio_22_Biblioteca.pdb
