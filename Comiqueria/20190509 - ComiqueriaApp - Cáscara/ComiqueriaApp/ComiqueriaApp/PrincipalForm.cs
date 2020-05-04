@@ -67,11 +67,11 @@ namespace ComiqueriaApp
         /// <param name="e"></param>
         private void ListBoxProductos_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Guid codigoProducto = ((KeyValuePair<Guid,string>)this.listBoxProductos.SelectedItem).Key;
+            Guid codigoProducto = ((KeyValuePair<Guid, string>)this.listBoxProductos.SelectedItem).Key;
             this.productoSeleccionado = this.comiqueria[codigoProducto];
             this.richTextBoxDetalle.Text = this.productoSeleccionado.ToString();
-        }
 
+        }
         /// <summary>
         /// Manejador del evento click del botón vender. 
         /// </summary>
@@ -79,15 +79,25 @@ namespace ComiqueriaApp
         /// <param name="e"></param>
         private void OnVenderClick(object sender, EventArgs e)
         {
-            //Si el constructor tiene parámetros de entrada proporcionarle los argumentos que correspondan.
-            //El campo "productoSeleccionado" contiene el producto actualmente seleccionado en el listBox de productos. 
-            //El campo "comiqueria" contiene la instancia de la comiqueria que se está utilizando. 
-            Form ventasForm = new VentasForm(); 
-            DialogResult result = ; //Agregar código para abrir ventasForm de forma MODAL
+                //Si el constructor tiene parámetros de entrada proporcionarle los argumentos que correspondan.
+                //El campo "productoSeleccionado" contiene el producto actualmente seleccionado en el listBox de productos. 
+                //El campo "comiqueria" contiene la instancia de la comiqueria que se está utilizando. 
+
+
+            DialogResult result = DialogResult.OK; //Agregar código para abrir ventasForm de forma MODAL
             if (result == DialogResult.OK)
             {
                 this.richTextBoxVentas.Text = this.comiqueria.ListarVentas();
             }
+        }
+
+        private void btnVender_Click(object sender, EventArgs e)
+        {
+            string descripcion = this.productoSeleccionado.Descripcion;
+            double precio = this.productoSeleccionado.Precio;
+            int stock = this.productoSeleccionado.Stock;
+            Form ventasForm = new VentasForm(descripcion,precio,stock,this.productoSeleccionado);
+            ventasForm.ShowDialog();
         }
     }
 }
