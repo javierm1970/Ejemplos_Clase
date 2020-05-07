@@ -96,7 +96,7 @@ namespace ComiqueriaApp
             string descripcion = this.productoSeleccionado.Descripcion;
             double precio = this.productoSeleccionado.Precio;
             int stock = this.productoSeleccionado.Stock;
-            Form ventasForm = new VentasForm(descripcion,precio,stock,this.productoSeleccionado);
+            Form ventasForm = new VentasForm(descripcion,precio,stock,this.productoSeleccionado,this.comiqueria);
             ventasForm.ShowDialog();
         }
     }

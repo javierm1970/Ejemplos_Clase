@@ -43,11 +43,13 @@ namespace ComiqueriaApp
             sb.AppendFormat("\n{0} - {1} - {2}",this.fecha ,this.producto.Descripcion,(float)(this.precioFinal));
             return sb.ToString();
         }
+
         private void Vender(int cantidad)
         {
             this.producto.Stock -= cantidad;
             this.fecha = DateTime.Now;
-            this.precioFinal = CalcularPrecioFinal(this.precioFinal,cantidad);
+            this.precioFinal = CalcularPrecioFinal(this.precioFinal, cantidad);
+
         }
     }
 }

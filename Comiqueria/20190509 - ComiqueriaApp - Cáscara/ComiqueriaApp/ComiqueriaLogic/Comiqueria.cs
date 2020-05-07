@@ -38,29 +38,41 @@ namespace ComiqueriaLogic
         }
         public Dictionary<Guid, string> ListarProductos()
         {
-            bool flagEncontrado = false;
-            Dictionary<Guid,string> nuevoDic = new Dictionary<Guid, string>();
-            if (!(this.ventas is null))
+            Dictionary<Guid, string> respuesta = new Dictionary<Guid, string>();
+
+            foreach (Producto producto in this.productos)
             {
-                foreach (Producto item in this.productos)
-                {
-                    foreach (KeyValuePair<Guid,string> item2 in nuevoDic)
-                    {
-                        if (item2.Key == (Guid)item)
-                        {
-                            flagEncontrado = true;
-                            break;
-                        }
-                        flagEncontrado = false;
-                    }
-                    if (!(flagEncontrado))
-                    {
-                        nuevoDic.Add((Guid)item, item.Descripcion);  
-                    }
-                }
+                respuesta.Add((Guid)producto, producto.Descripcion);
             }
-            return nuevoDic;
+
+            return respuesta;
         }
+
+        //public Dictionary<Guid, string> ListarProductos()
+        //{
+        //    bool flagEncontrado = false;
+        //    Dictionary<Guid, string> nuevoDic = new Dictionary<Guid, string>();
+        //    if (!(this.ventas is null))
+        //    {
+        //        foreach (Producto item in this.productos)
+        //        {
+        //            foreach (KeyValuePair<Guid, string> item2 in nuevoDic)
+        //            {
+        //                if (item2.Key == (Guid)item)
+        //                {
+        //                    flagEncontrado = true;
+        //                    break;
+        //                }
+        //                flagEncontrado = false;
+        //            }
+        //            if (!(flagEncontrado))
+        //            {
+        //                nuevoDic.Add((Guid)item, item.Descripcion);
+        //            }
+        //        }
+        //    }
+        //    return nuevoDic;
+        //}
         public string ListarVentas()
         {
             StringBuilder sb = new StringBuilder();

@@ -1,0 +1,6 @@
+D:\UTN\Practicas Visual Studio C#\Ejemplos_Clase\ejemplo_Herencia_Polimorfismo\ejemplo_Herencia_Polimorfismo\bin\Debug\ejemplo_Herencia_Polimorfismo.dll
+D:\UTN\Practicas Visual Studio C#\Ejemplos_Clase\ejemplo_Herencia_Polimorfismo\ejemplo_Herencia_Polimorfismo\bin\Debug\ejemplo_Herencia_Polimorfismo.pdb
+D:\UTN\Practicas Visual Studio C#\Ejemplos_Clase\ejemplo_Herencia_Polimorfismo\ejemplo_Herencia_Polimorfismo\obj\Debug\ejemplo_Herencia_Polimorfismo.csprojAssemblyReference.cache
+D:\UTN\Practicas Visual Studio C#\Ejemplos_Clase\ejemplo_Herencia_Polimorfismo\ejemplo_Herencia_Polimorfismo\obj\Debug\ejemplo_Herencia_Polimorfismo.csproj.CoreCompileInputs.cache
+D:\UTN\Practicas Visual Studio C#\Ejemplos_Clase\ejemplo_Herencia_Polimorfismo\ejemplo_Herencia_Polimorfismo\obj\Debug\ejemplo_Herencia_Polimorfismo.dll
+D:\UTN\Practicas Visual Studio C#\Ejemplos_Clase\ejemplo_Herencia_Polimorfismo\ejemplo_Herencia_Polimorfismo\obj\Debug\ejemplo_Herencia_Polimorfismo.pdb

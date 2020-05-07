@@ -1,0 +1,6 @@
+D:\UTN\Practicas Visual Studio C#\Ejemplos_Clase\RepasoCentralita\RepasoCentralita\obj\Debug\CentralitaHerencia.csprojAssemblyReference.cache
+D:\UTN\Practicas Visual Studio C#\Ejemplos_Clase\RepasoCentralita\RepasoCentralita\obj\Debug\CentralitaHerencia.csproj.CoreCompileInputs.cache
+D:\UTN\Practicas Visual Studio C#\Ejemplos_Clase\RepasoCentralita\RepasoCentralita\bin\Debug\RepasoCentralita.dll
+D:\UTN\Practicas Visual Studio C#\Ejemplos_Clase\RepasoCentralita\RepasoCentralita\bin\Debug\RepasoCentralita.pdb
+D:\UTN\Practicas Visual Studio C#\Ejemplos_Clase\RepasoCentralita\RepasoCentralita\obj\Debug\RepasoCentralita.dll
+D:\UTN\Practicas Visual Studio C#\Ejemplos_Clase\RepasoCentralita\RepasoCentralita\obj\Debug\RepasoCentralita.pdb

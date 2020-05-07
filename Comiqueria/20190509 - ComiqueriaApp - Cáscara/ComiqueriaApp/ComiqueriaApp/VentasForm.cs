@@ -17,21 +17,30 @@ namespace ComiqueriaApp
         private double precio;
         private int stock;
         private Producto producto;
+        private Comiqueria comiqueria;
         public VentasForm()
         {
             InitializeComponent();
         }
-        public VentasForm(string descripcion, double precio,int stock,Producto producto):this()
+        public VentasForm(string descripcion, double precio,int stock,Producto producto,Comiqueria comiqueria):this()
         {
             this.descripcion = descripcion;
             this.precio = precio;
             this.stock = stock;
             this.producto = producto;
+            this.comiqueria = comiqueria;
+        }
+        private void ActualizarPrecio()
+        {
+            int cantidadSeleccionada = Convert.ToInt32(this.numericUpDownCantidad.Value);
+            double nuevoPrecioFinal = Venta.CalcularPrecioFinal(this.producto.Precio, cantidadSeleccionada);
+            this.lblPrecioFinal.Text = String.Format("Precio Final: ${0:0.00}", nuevoPrecioFinal);
         }
 
         private void numericUpDownCantidad_ValueChanged(object sender, EventArgs e)
         {
-            lblPrecioFinal.Text=(Venta.CalcularPrecioFinal(this.precio,(int)numericUpDownCantidad.Value)).ToString();
+            this.ActualizarPrecio();
+            //lblPrecioFinal.Text=(Venta.CalcularPrecioFinal(this.precio,(int)numericUpDownCantidad.Value)).ToString();
         }
 
         private void btnVender_Click(object sender, EventArgs e)
@@ -43,6 +52,10 @@ namespace ComiqueriaApp
             else
             {
                 MessageBox.Show("Gracias por su compra", "Compra exitosa", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+
+                //this.comiqueria.Vender(this.producto, Convert.ToInt32(numericUpDownCantidad.Value));
+                this.DialogResult = DialogResult.OK;
+                this.Close();
                 //Venta nuevaVenta = new Venta();
                 //(this.producto, (int)numericUpDownCantidad.Value);
             }
@@ -51,8 +64,9 @@ namespace ComiqueriaApp
 
         private void VentasForm_Load(object sender, EventArgs e)
         {
-            lblDescripcion.Text = this.descripcion;
-            lblPrecioFinal.Text = (Venta.CalcularPrecioFinal(this.precio, (int)numericUpDownCantidad.Value)).ToString();
+            this.lblDescripcion.Text = this.descripcion;
+            this.ActualizarPrecio();
+            //lblPrecioFinal.Text = (Venta.CalcularPrecioFinal(this.precio, (int)numericUpDownCantidad.Value)).ToString();
         }
 
         private void Cancelar_Click(object sender, EventArgs e)

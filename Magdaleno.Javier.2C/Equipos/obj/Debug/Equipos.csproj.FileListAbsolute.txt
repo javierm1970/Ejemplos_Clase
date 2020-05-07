@@ -1,0 +1,6 @@
+D:\UTN\Practicas Visual Studio C#\Ejemplos_Clase\Magdaleno.Javier.2C\Equipos\bin\Debug\Equipos.dll
+D:\UTN\Practicas Visual Studio C#\Ejemplos_Clase\Magdaleno.Javier.2C\Equipos\bin\Debug\Equipos.pdb
+D:\UTN\Practicas Visual Studio C#\Ejemplos_Clase\Magdaleno.Javier.2C\Equipos\obj\Debug\Equipos.csprojAssemblyReference.cache
+D:\UTN\Practicas Visual Studio C#\Ejemplos_Clase\Magdaleno.Javier.2C\Equipos\obj\Debug\Equipos.csproj.CoreCompileInputs.cache
+D:\UTN\Practicas Visual Studio C#\Ejemplos_Clase\Magdaleno.Javier.2C\Equipos\obj\Debug\Equipos.dll
+D:\UTN\Practicas Visual Studio C#\Ejemplos_Clase\Magdaleno.Javier.2C\Equipos\obj\Debug\Equipos.pdb
