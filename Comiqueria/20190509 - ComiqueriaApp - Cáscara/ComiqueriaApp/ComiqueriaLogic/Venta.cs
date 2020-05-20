@@ -1,4 +1,5 @@
-﻿using ComiqueriaLogic;
+﻿using ComrobanteLogic;
+using ComiqueriaLogic;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +14,8 @@ namespace ComiqueriaApp
         private DateTime fecha;
         private static int porcentajeIva;
         private double precioFinal;
-        Producto producto;
+        private int cantidad;
+        private Producto producto;
 
         static Venta()
         {
@@ -22,7 +24,15 @@ namespace ComiqueriaApp
         internal Venta(Producto producto, int cantidad)
         {
             this.producto = producto;
+            this.cantidad = cantidad;
             Vender(cantidad);
+        }
+        public int Cantidad
+        {
+            get
+            {
+                return this.cantidad;
+            }
         }
         internal DateTime Fecha
         {
@@ -51,5 +61,12 @@ namespace ComiqueriaApp
             this.precioFinal = CalcularPrecioFinal(this.precioFinal, cantidad);
 
         }
+        public static explicit operator Producto(Venta venta)
+        {
+            return venta.producto;
+        }
+
+
+
     }
 }

@@ -4,6 +4,8 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using ComrobanteLogic;
+using ComiqueriaApp;
 
 namespace ComiqueriaLogic
 {
@@ -37,6 +39,13 @@ namespace ComiqueriaLogic
             get
             {
                 return this.precio;
+            }
+            set
+            {
+                if(value >= 1)
+                {
+                    this.precio = value;
+                }
             }
         }
         public int Stock
